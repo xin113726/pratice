@@ -33,3 +33,25 @@ Cache-Control:public, max-age=31536000
 Cache-Control: no-cache
 
 Cache-Control: max-age=0
+
+## babel
+
+Babel默认只转换新的JavaScript句法（syntax），而不转换新的API，比如Iterator、Generator、Set、Maps、Proxy、Reflect、Symbol、Promise等全局对象，以及一些定义在全局对象上的方法（比如Object.assign）都不会转码
+
+npm install --save @babel/runtime-corejs3
+
+npm install --save-dev @babel/plugin-transform-runtime
+
+```
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 3
+      }
+    ]
+  ]
+}
+```
