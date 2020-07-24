@@ -2,6 +2,8 @@
 
 [TypeScript](https://github.com/xin113726/pratice/issues/1)
 
+[ES6](https://github.com/xin113726/pratice/issues/2)
+
 ## 编写习惯
 
 - 三联运算符
