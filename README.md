@@ -61,3 +61,19 @@ npm install --save-dev @babel/plugin-transform-runtime
   ]
 }
 ```
+
+## 文本截断
+
+```
+// 单行文本
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+
+// 表格换行
+table-layout: fixed;
+
+// 长英文/数字换行
+word-break: break-all;
+（使用 overflow-wrap: break-word; 长英文/数字会占据另外的一行或多行）
+```
