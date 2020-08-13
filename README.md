@@ -4,6 +4,8 @@
 
 [ES6](https://github.com/xin113726/pratice/issues/2)
 
+[Docker](https://github.com/xin113726/pratice/issues/3)
+
 ## 编写习惯
 
 - 三联运算符
@@ -15,6 +17,8 @@
 ## 优化
 
 [公共接口提取，组件需要时引入](https://juejin.im/post/6858504329251258382#heading-77)
+
+[Axios封装并扩展到Vue原型链中](https://juejin.im/post/6858504329251258382#heading-70)
 
 ## 压缩
 
