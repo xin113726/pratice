@@ -15,6 +15,8 @@
 
 - 箭头函数的使用
 
+window.open(url, '_blank')
+
 ## 优化
 
 [公共接口提取，组件需要时引入](https://juejin.im/post/6858504329251258382#heading-77)
