@@ -17,6 +17,14 @@
 
 window.open(url, '_blank')
 
+```
+calc(100% - 30px)等带单位混合运算在 less 解析时，会被忽略单位，全部按照百分比计算
+
+解决办法：使用 less 转义
+
+height: calc(~'100% - 30px');
+```
+
 ## 优化
 
 [公共接口提取，组件需要时引入](https://juejin.im/post/6858504329251258382#heading-77)
